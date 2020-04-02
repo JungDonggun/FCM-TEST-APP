@@ -1,11 +1,11 @@
 import React from 'react'
-import { Text, View } from "react-native"
+import { SafeAreaView, Text, View } from "react-native"
 
 const App: React.FunctionComponent = () => {
   return (
-      <View>
+      <SafeAreaView>
         <Text>welcome to React native App</Text>
-      </View>
+      </SafeAreaView>
   )
 }
 

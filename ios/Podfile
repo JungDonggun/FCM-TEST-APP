@@ -8,6 +8,9 @@ def add_flipper_pods!
   pod 'FlipperKit/SKIOSNetworkPlugin', version, :configuration => 'Debug'
   pod 'FlipperKit/FlipperKitUserDefaultsPlugin', version, :configuration => 'Debug'
   pod 'FlipperKit/FlipperKitReactPlugin', version, :configuration => 'Debug'
+
+  # add pods for desired Firebase products
+  # https://firebase.google.com/docs/ios/setup#available-pods
 end
 
 # Post Install processing for Flipper
