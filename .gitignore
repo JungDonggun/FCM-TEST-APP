@@ -2,6 +2,11 @@
 #
 .DS_Store
 
+CertificateSigningRequest.certSigningRequest
+aps_development.cer
+apn.p12
+AuthKey_484792JAAP.p8
+
 android/build
 android/.gradle
 

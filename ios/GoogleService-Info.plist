@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>603132267885-hkrvt2t3ogqo6ngk7ncgelk4h5ls7a20.apps.googleusercontent.com</string>
+	<string>603132267885-1v6sppjle0t740o2ko21j09trv1ds7ch.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.603132267885-hkrvt2t3ogqo6ngk7ncgelk4h5ls7a20</string>
+	<string>com.googleusercontent.apps.603132267885-1v6sppjle0t740o2ko21j09trv1ds7ch</string>
 	<key>API_KEY</key>
 	<string>AIzaSyBZ07pfTf0uIz4RyksNaO9txLAyDI9ZJqk</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.fcmTest</string>
+	<string>com.sizl.fcmTest</string>
 	<key>PROJECT_ID</key>
 	<string>fcm-test-59224</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:603132267885:ios:10640e434fa1be92a6de64</string>
+	<string>1:603132267885:ios:bece89bf69e67bc8a6de64</string>
 	<key>DATABASE_URL</key>
 	<string>https://fcm-test-59224.firebaseio.com</string>
 </dict>
