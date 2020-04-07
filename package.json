@@ -21,8 +21,8 @@
     "pod_install": "cd ios && pod install && cd .."
   },
   "dependencies": {
-    "@react-native-firebase/app": "^6.3.4",
-    "@react-native-firebase/messaging": "^6.3.4",
+    "@react-native-firebase/app": "^6.4.0",
+    "@react-native-firebase/messaging": "^6.4.0",
     "react": "16.11.0",
     "react-native": "0.62.0"
   },

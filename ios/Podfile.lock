@@ -371,10 +371,11 @@ PODS:
     - React-cxxreact (= 0.62.0)
     - React-jsi (= 0.62.0)
     - ReactCommon/callinvoker (= 0.62.0)
-  - RNFBApp (6.3.4):
+  - RNFBApp (6.4.0):
     - Firebase/Core (~> 6.13.0)
     - React
-  - RNFBMessaging (6.3.4):
+  - RNFBMessaging (6.4.0):
+    - Firebase/Core (~> 6.13.0)
     - Firebase/Messaging (~> 6.13.0)
     - React
     - RNFBApp
@@ -555,8 +556,8 @@ SPEC CHECKSUMS:
   React-RCTText: 91a0d0ae5434aa28fe0c89c03eb9d660ff53bd9b
   React-RCTVibration: 0630aeb11e22f87c180ca9c0c3a0a0aba780cc62
   ReactCommon: d22162ab8f1358c53dfcd0f9c4d82d38facdbc48
-  RNFBApp: 7d4006751de8bb5cafa2e8d2e7d94ee250df81db
-  RNFBMessaging: 51cc7f6beaf4c4feac6f18ea941bba5854e3d9c6
+  RNFBApp: 69781cf10ce41f6f6db789e6264dd80119ef2fb7
+  RNFBMessaging: 805710731a2b616030514f6f416e8787de521f41
   Yoga: 9db9ff2025ad21d1ac0a8b3c85d5ac4e7c29d525
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
