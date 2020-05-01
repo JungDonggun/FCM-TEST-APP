@@ -1,12 +1,15 @@
 import React from 'react'
-import { SafeAreaView, Text } from "react-native"
+import { Button, SafeAreaView, Text, View } from "react-native"
 import messaging from '@react-native-firebase/messaging';
+import PushNotification from 'react-native-push-notification';
+import initPushNotifications from "./src/lib/initPushNotifications";
 
 const App: React.FunctionComponent = () => {
 
   React.useEffect(() => {
+    initPushNotifications()
     registerAppWithFCM()
-    checkApplicationPermission()
+    getFCMToken()
 
     messaging().getInitialNotification()
         .then(remoteMessage => {
@@ -26,11 +29,11 @@ const App: React.FunctionComponent = () => {
       );
     });
 
-
     messaging().onMessage(async remoteMessage => {
-      console.log('A new FCM Message arrived!', remoteMessage)
-    });
+      console.log('A new FCM Message arrived!!!', remoteMessage)
 
+
+    });
   }, [])
 
   const registerAppWithFCM = async () => {
@@ -39,27 +42,18 @@ const App: React.FunctionComponent = () => {
     console.log('Firebase Token', token)
   }
 
-  const checkApplicationPermission = async () => {
-    try {
-      const settings = await messaging().requestPermission();
+  const getFCMToken = async () => {
+    const fcmToken = await messaging().getToken();
 
-      // settings only available on iOS
-      if (settings) {
-        console.log('User has notification permissions enabled');
-      } else {
-        console.log('User has notification permissions disabled');
-      }
-    } catch (error) {
-      // User has rejected permissions
-      console.log('Error', error)
-      alert("you can't handle push notification");
-    }
+    console.log('fcmToken', fcmToken)
   }
 
 
   return (
       <SafeAreaView>
-        <Text>welcome to React native App</Text>
+        <View style={{ justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+          <Button title={'hi me'}/>
+        </View>
       </SafeAreaView>
   )
 }
